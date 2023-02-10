@@ -19,9 +19,9 @@ bot.on("message", async (msg) => {
       temperature: 0.9,
       max_tokens: 1000,
   })
-
+  
   const chatId = msg.chat.id
-
+  
   const ans = response.data.choices.pop()
 
   if(!ans?.text) {
