@@ -3,7 +3,7 @@ Integration of telegram chatbot to openai..
 
 # Preview
 <img src="./images/screenshot1.jpg" width="360" alt="screenshot1"/>
-<img src="./images/screenshot2.jpg" width="360" alt="screenshot2">1
+<img src="./images/screenshot2.jpg" width="360" alt="screenshot2">
 
 ## Dependencies:-
 
