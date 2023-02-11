@@ -17,7 +17,7 @@ bot.on("message", async (msg) => {
       model: 'text-davinci-003',
       prompt: `${msg.text}.\n`,
       temperature: 0.9,
-      max_tokens: 1000,
+      max_tokens: 3800,
   })
   
   const chatId = msg.chat.id
@@ -26,7 +26,7 @@ bot.on("message", async (msg) => {
 
   if(!ans?.text) {
 
-      return bot.sendMessage(chatId, "please try again, AI couldn't send the data")
+      return bot.sendMessage(chatId, "لطفا دوباره امتحان کنید، هوش مصنوعی نمی تواند داده ها را ارسال کند")
   }
 
   bot.sendMessage(chatId, ans?.text)
