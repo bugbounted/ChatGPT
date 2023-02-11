@@ -18,9 +18,6 @@ bot.on("message", async (msg) => {
       prompt: `${msg.text}.\n`,
       temperature: 0,
       max_tokens: 3800,
-      top_p: 1,
-      frequency_penalty: 0.5,
-      presence_penalty: 0,
   })
   
   const chatId = msg.chat.id
