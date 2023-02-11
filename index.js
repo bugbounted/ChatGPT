@@ -16,7 +16,7 @@ bot.on("message", async (msg) => {
   const response = await openai.createCompletion({
       model: 'text-davinci-003',
       prompt: `${msg.text}.\n`,
-      temperature: 0.9,
+      temperature: 0,
       max_tokens: 3800,
   })
   
